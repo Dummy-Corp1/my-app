@@ -70,8 +70,8 @@ const Logo = styled.img`
 `;
 
 const RestaurantLogo = styled.img`
-  width: 60px;
-  height: 50px;
+  width: 60px !important;
+  height: 50px !important;
   border-radius: 5px;
 `;
 
@@ -117,6 +117,12 @@ const SublineText = styled.p`
 
 const RecommendedRestaurant = styled.div`
   border-bottom: 1px solid #e1e1e1;
+  height: 155px;
+  overflow: scroll;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const Restaurant = styled.div`
@@ -149,6 +155,7 @@ const StarImg = styled.img`
 
 const BestRecommendation = styled.p`
   margin: 2px 10px 0 0px;
+  max-width: 250px;
   font-size: 9px;
 `;
 

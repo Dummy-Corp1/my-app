@@ -24,6 +24,22 @@ var restaurants = [
     reviews: 2082,
     bestRecommendation:
       "I would really recommend the Yum Koh Moo Yang - Spicy lime dressing and roasted quick marinated pork shoulder, basil leaves, chili & rice powder."
+  },
+  {
+    title: "Farmhouse Thai Cuisine",
+    image: FarmhouseThaiCuisineLogo,
+    rates: 4,
+    reviews: 1528,
+    bestRecommendation:
+      "They do have some vegan options, like the roti and curry, plus they have a ton of salad stuff and noodles can be ordered without meat! They have something for everyone here"
+  },
+  {
+    title: "Ler Ros",
+    image: LerRosLogo,
+    rates: 4,
+    reviews: 2082,
+    bestRecommendation:
+      "I would really recommend the Yum Koh Moo Yang - Spicy lime dressing and roasted quick marinated pork shoulder, basil leaves, chili & rice powder."
   }
 ];
 
